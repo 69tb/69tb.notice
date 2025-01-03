@@ -3,7 +3,8 @@ game 'gta5'
 
 server_script { 
     '@vrp/lib/utils.lua',
-    'Lua/server.lua'
+    'Lua/server.lua',
+    'Lua/Config.lua'
 }
 client_script 'Lua/client.lua'
 
